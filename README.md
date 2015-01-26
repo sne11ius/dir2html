@@ -4,6 +4,8 @@ A simple java library to generate html from directory structures
 
 ##Example
 
+###Result
+
 ###Directory Structure
     ├── JAXRSConfiguration.java
     ├── registrations
@@ -66,9 +68,3 @@ A simple java library to generate html from directory structures
         </ul>
       </li>
     </ul>
-
-
-Apply some css and you get:
-
-![screenshot 1](https://raw.githubusercontent.com/sne11ius/dir2html/master/screenshot.png)
-

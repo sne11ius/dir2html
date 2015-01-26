@@ -1,0 +1,87 @@
+.directory-tree {
+	text-align: left;
+  padding-left: 0;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+ul.directory {
+  padding-left: 10px;
+}
+
+.directory-tree li {
+  list-style-type: none;
+  margin-top: 2px;
+}
+
+li.file {
+  padding-left: 10px;
+}
+
+.directory-name:before {
+  content: ' ';
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-image: url(./directory.png);
+  background-size: cover;
+  position: relative;
+  top: 3px;
+  left: -6px;;
+}
+
+
+.file:before {
+  content: ' ';
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-image: url(./file.png);
+  background-size: cover;
+  position: relative;
+  left: -6px;
+  top: 3px;
+}
+
+.file.zip:before,
+.file.jar:before,
+.file.war:before,
+.file.rar:before {
+  background-image: url(./zip.png);
+}
+
+.file.java:before {
+  background-image: url(./java2.png);
+}
+
+.file.xml:before {
+  background-image: url(./code.png);
+}
+
+.file.html:before {
+  background-image: url(./html.png);
+}
+
+.file.css:before {
+  background-image: url(./css.png);
+}
+
+.file.jsp:before {
+  background-image: url(./html.png);
+}
+
+.directory-tree li.active {
+	background-color: rgb(149, 194, 255);
+	padding-bottom: 3px;
+	border-radius: 3px;
+}
+.directory-tree a:hover {
+  background-color: rgb(149, 194, 255);
+}
+
+.directory-tree a {
+  text-decoration: none;
+  color: black;
+	padding-left: 2px;
+	padding-right: 2px;
+}
