@@ -5,6 +5,7 @@ A simple java library to generate html from directory structures
 ##Example
 
 ###Result
+![screenshot 1](https://raw.githubusercontent.com/sne11ius/dir2html/master/screenshot.png)
 
 ###Directory Structure
     ├── JAXRSConfiguration.java
