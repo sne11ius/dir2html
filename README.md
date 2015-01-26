@@ -70,4 +70,5 @@ A simple java library to generate html from directory structures
 
 Apply some css and you get:
 
+![screenshot 1](https://raw.githubusercontent.com/sne11ius/dir2html/master/screenshot.png)
 
