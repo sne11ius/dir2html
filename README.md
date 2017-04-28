@@ -1,13 +1,13 @@
-#dir2html
+# dir2html
 
 A simple java library to generate html from directory structures
 
-##Example
+## Example
 
-###Result
+### Result
 ![screenshot 1](https://raw.githubusercontent.com/sne11ius/dir2html/master/screenshot.png)
 
-###Directory Structure
+### Directory Structure
     ├── JAXRSConfiguration.java
     ├── registrations
     │   ├── boundary
@@ -21,11 +21,11 @@ A simple java library to generate html from directory structures
         └── boundary
             └── LoggerExposer.java
 
-###Example usage
+### Example usage
 
     DirToHtml.toHtml(new File("/test/base/dir"), "/registrations/control/VatCalculator.java", "https://example.com/some/random/prefix?file={file}")
 
-###Generated HTML
+### Generated HTML
     <ul class="directory-tree">
       <li class="directory">
         <ul class="directory">
